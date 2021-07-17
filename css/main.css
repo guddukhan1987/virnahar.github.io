@@ -1020,7 +1020,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #ebebeb;
+	background: honeydew;
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -1499,7 +1499,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	/* background: #FFFFFF; */
+	background:aliceblue;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -2605,4 +2606,15 @@ footer .copyright span:last-child::after {
 	background: #3db990;
 }
 
-/*# sourceMappingURL=main.css.map */
+
+/* body{
+	margin:0;
+	overflow: hidden;
+	font-size:0;
+} */
+canvas{
+	/* background: black; */
+	width: 50vw;
+	height: 20vh;
+}
+
