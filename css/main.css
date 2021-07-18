@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #0ae02e;
+	color: lightseagreen;
 	outline: 0;
 }
 
@@ -429,7 +429,7 @@ img.pull-left {
 	display: none;
 }
 .pace .pace-progress {
-	background: #0ae02e;
+	background: lightseagreen;
 	position: fixed;
 	z-index: 900;
 	top: 0;
@@ -472,7 +472,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #0ae02e;
+	border-left: 11px solid lightseagreen;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -736,8 +736,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #0ae02e;
-	color: #0ae02e;
+	border: 3px solid lightseagreen;
+	color: lightseagreen;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -925,7 +925,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #0ae02e;
+	color: lightseagreen;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1095,7 +1095,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	/* background: #000000; */
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1108,6 +1108,7 @@ header .logo {
 	margin-right: 50px;
 	margin-top: 25px;
 	position: relative;
+	filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
 }
 header .logo a {
 	display: block;
@@ -1121,7 +1122,13 @@ header .logo a {
 	height: 15px;
 	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
+	/* filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+filter: drop-shadow(4px 4px lightseagreen); */
 }
+header .logo a:hover {
+	filter: opacity(0.5) drop-shadow(0 0 0 blue);
+}
+
 
 /**
  * menu toggle - (_layout.css)
@@ -1138,7 +1145,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #0ae02e;
+	background-color: lightseagreen;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1196,7 +1203,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #0ae02e;
+	background-color: lightseagreen;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1229,7 +1236,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	/* background: #000000; */
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
@@ -1245,19 +1252,19 @@ header .logo a {
 }
 .main-navigation li a {
 	display: block;
-	color: #FFFFFF;
+	color: burlywood;
 	width: auto;
 	padding: 15px 0;
 	line-height: 16px;
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #0ae02e;
+	color: lightseagreen;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #0ae02e;
+	color: lightseagreen;
 }
 
 /**
@@ -1393,7 +1400,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #07be16;
+	border-color: lightseagreen;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1425,7 +1432,8 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	/* color: #cc005f; */
+	color:lightseagreen;
 }
 
 /**
@@ -1966,7 +1974,7 @@ header .logo a {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: lightseagreen;
 	border: none;
 }
 @media only screen and (max-width:600px) {
@@ -2376,7 +2384,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: lightseagreen;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2434,8 +2442,12 @@ header .logo a {
 	font-size: 4.2rem;
 	color: #FFFFFF;
 }
+.contact-info .icon i:hover, .contact-info .icon i:focus {
+	/* color: #cc005f; */
+	color:lightseagreen;
+}
 .contact-info h5 {
-	color: #0ae02e;
+	color: lightseagreen;
 }
 
 /**
@@ -2509,7 +2521,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #0ae02e;
+	color: lightseagreen;
 }
 footer .row {
 	max-width: 900px;
@@ -2532,6 +2544,11 @@ footer .footer-social li {
 }
 footer .footer-social li a {
 	color: #FFFFFF;
+}
+
+.footer-social li a:hover, .intro-social li a:focus {
+	/* color: #cc005f; */
+	color:lightseagreen;
 }
 footer .copyright span {
 	display: inline-block;
@@ -2617,4 +2634,99 @@ canvas{
 	width: 50vw;
 	height: 20vh;
 }
+
+#particles-js {
+    height: 50vh;
+}
+
+
+/* For Logo Animation */
+/* 
+header .top-bar::before {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+header .top-bar:hover::before {
+	animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+	0% {
+		width: 0;
+		height: 0;
+		border-top-color: white;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+
+	50% {
+		width: 100%;
+		height: 0;
+		border-top-color: white;
+		border-right-color: white;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+
+	100% {
+		width: 100%;
+		height: 100%;
+		border-top-color: white;
+		border-right-color: white;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+}
+
+header .top-bar::after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+header .top-bar:hover::after {
+	animation: animates 1s linear forwards;
+}
+
+@keyframes animates {
+	0% {
+		width: 0;
+		height: 0;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: white;
+	}
+
+	50% {
+		width: 0;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: white;
+		border-left-color: white;
+	}
+
+	100% {
+		width: 100%;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: white;
+		border-left-color: white;
+	}
+} */
 

@@ -41,8 +41,9 @@
 	<!-- header 
    ================================================== -->
 	<header>
+		
 		<div class="row">
-
+		
 			<div class="top-bar">
 				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
@@ -52,6 +53,7 @@
 
 				<nav id="main-nav-wrap">
 					<ul class="main-navigation">
+						
 						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll" href="#about" title="">About</a></li>
 						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
@@ -61,20 +63,20 @@
 					</ul>
 				</nav>
 			</div> <!-- /top-bar -->
-
+			
 		</div> <!-- /row -->
 	</header> <!-- /header -->
-
+	
 	<!-- intro section
    ================================================== -->
- 
+   
 	<section id="intro">
-
+		
 		<div class="intro-overlay"></div>
-
+		
 		<div class="intro-content">
-			<div class="row">
-
+			<div class="row"  id="particles-js">
+				
 				<div class="col-twelve">
 					<div class="typewriter">
 						<div class="typewriter-text">
@@ -82,6 +84,7 @@
 							<h4> Echo Hello, World</h4>
 				
 				</div>
+			
 				<canvas id="scene"><h1><input id="copy" type="text" value="VIRENDRA KUMAR ♥" /></h1></canvas>
 				
 	
@@ -112,11 +115,12 @@
 
 	<!-- about section
    ================================================== -->
+  
 	<section id="about">
-
+		
 		<div class="row section-intro">
 			<div class="col-twelve">
-
+				
 				<h5>About</h5>
 				<h1>Let me introduce myself.</h1>
 
@@ -395,11 +399,12 @@
 
 	<!-- Portfolio Section
    ================================================== -->
+   
 	<section id="portfolio">
-
+		
 		<div class="row section-intro">
 			<div class="col-twelve">
-
+				
 				<h5>My PhotoGraphy</h5>
 				<h1>Check Out Some of My Works.</h1>
 
@@ -414,13 +419,15 @@
 	</section> <!-- /portfolio -->
 	<!-- services Section
    ================================================== -->
+   
 	<section id="services">
-
+	
 		<div class="overlay"></div>
-
+		
 		<div class="row section-intro">
+			
 			<div class="col-twelve">
-
+			
 				<h5>Skill-set</h5>
 				<h1>What Can I Do For You?</h1>
 
@@ -428,7 +435,7 @@
 
 			</div>
 		</div> <!-- /section-intro -->
-
+	
 		<div class="row services-content">
 
 			<div id="owl-slider" class="owl-carousel services-list">
@@ -530,11 +537,12 @@
 
 	<!-- stats Section
    ================================================== -->
+  
 	<section id="stats" class="count-up">
 
 		<div class="row">
 			<div class="col-twelve">
-
+				
 				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
 
 					<div class="bgrid stat">
@@ -644,24 +652,25 @@
 	<!-- contact
    ================================================== -->
    
+  
 	<section id="contact">
-
-		<div class="row section-intro">
+	
+		<div class="row section-intro" >
 			<div class="col-twelve">
-
+			
 				<h5>Contact</h5>
 				<h1>Feel free to contact me.</h1>
 
 				<p class="lead"> I am always available to help you learn and share the knowledge.
 				</p>
-
+				
 			</div>
 		</div> <!-- /section-intro -->
-
+	
 		<div class="row contact-form">
-
+			
 			<div class="col-twelve">
-
+				
 				<!-- form -->
 				<form name="contactForm" id="contactForm" method="post" action="mailto:virnahar@gmail.com" enctype="text/plain">
 					<fieldset>
@@ -693,7 +702,7 @@
 
 					</fieldset>
 				</form> <!-- Form End -->
-
+				
 				<!-- contact-warning -->
 				<div id="message-warning">
 				</div>
@@ -701,13 +710,13 @@
 				<div id="message-success">
 					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
 				</div>
-
+				
 			</div> <!-- /col-twelve -->
 
 		</div> <!-- /contact-form -->
-
+		
 		<div class="row contact-info">
-
+			
 			<div class="col-four tab-full">
 
 				<div class="icon">
@@ -751,6 +760,7 @@
 
 	</section> <!-- /contact -->
 
+
 	<!-- footer
    ================================================== -->
 
@@ -788,7 +798,13 @@
 
 	<!-- Java Script
    ================================================== -->
-	<script src="js/jquery-2.1.3.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+	particlesJS.load('particles-js', './particles.json', function(){
+	  console.log("particles.josn loaded...")
+	})
+  </script>	
+   <script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 	
