@@ -156,7 +156,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: dimgrey;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1020,7 +1020,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: honeydew;
+	/* background: azure; */
+	background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -1041,7 +1046,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #731aa7;
+	color: darkslategray;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1508,7 +1513,11 @@ header .logo a:hover {
  */
 #about {
 	/* background: #FFFFFF; */
-	background:aliceblue;
+	/* background:aliceblue; */
+	background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1647,7 +1656,7 @@ header .logo a:hover {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #731aa7;
+	color: darkslategray;
 }
 
 #resume .resume-timeline {
@@ -1808,7 +1817,10 @@ header .logo a:hover {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2050,7 +2062,7 @@ header .logo a:hover {
 	text-align: center;
 }
 #cta p.lead {
-	color: #6e6e6e;
+	color: dimgrey;
 }
 .cta-content {
 	max-width: 640px;
